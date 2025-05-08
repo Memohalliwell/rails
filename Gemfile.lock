@@ -13,6 +13,8 @@ GIT
   branch: master
   specs:
     httpclient (2.8.3)
+      mutex_m
+      webrick
 
 GIT
   remote: https://github.com/rails/sdoc.git
@@ -419,7 +421,8 @@ GEM
     rack (3.1.7)
     rack-cache (1.15.0)
       rack (>= 0.4)
-    rack-session (2.0.0)
+    rack-session (2.1.1)
+      base64 (>= 0.1.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
       rack (>= 1.3)
