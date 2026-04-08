@@ -110,8 +110,8 @@ GEM
   specs:
     action_text-trix (2.1.15)
       railties
-    addressable (2.8.7)
-      public_suffix (>= 2.0.2, < 7.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     amq-protocol (2.3.2)
     argon2 (2.3.2)
       ffi (~> 1.15)
@@ -410,7 +410,7 @@ GEM
     psych (5.2.6)
       date
       stringio
-    public_suffix (6.0.1)
+    public_suffix (7.0.5)
     puma (6.5.0)
       nio4r (~> 2.0)
     queue_classic (4.0.0)
